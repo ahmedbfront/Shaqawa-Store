@@ -1,0 +1,185 @@
+@media (min-width: 992px) {
+
+  .fb-comment {
+    width: 80%;
+  }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+  // Section Title 
+  .title-section {
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+  // Section Title 
+
+  // Start Navbar 
+  .navbar {
+    text-align: center;
+    padding: 10px 20px;
+    .collapse {
+      .navbar-nav {
+        .nav-item {
+          margin: 10px 0;
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  // End Navbar 
+
+  // Start of Header Home Page 
+  header {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          img {
+            height: 80vh;
+          }
+        }
+      }
+    }
+  }
+  // End of Header Home Page 
+
+  // Start Facebook Section 
+  .facebook {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    .comments {
+      .carousel {
+        .comment {
+          iframe {
+            width: auto;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  // End Facebook Section 
+
+  // Start Section About 
+  .about {
+    .about-me {
+      h2 {
+        margin-top: 60px;
+      }
+      p {
+        width: 100%;
+      }
+    }
+  }
+  // End Section About 
+
+
+  // Slider format Facebook and header page 
+  .carousel {
+    .carousel-indicators {
+      li {
+        margin: 0 8px;
+      }
+    }
+    a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  // Slider format Facebook and header page 
+
+  // padding top and bottom 
+  .p-top-botm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  // padding top and bottom 
+
+
+  // Start Section Discount offers 
+  .discount {
+    img {
+      height: 150px !important;
+    }
+  }
+  // End Section Discount offers 
+
+
+  // Srart Footer 
+  footer {
+    .footer {
+      margin-bottom: 40px;
+    }
+    h4 {
+      margin-bottom: 30px;
+    }
+  }
+  // End Footer 
+
+}
+@media (max-width: 767px) {
+
+  // Start of Header Home Page 
+  header {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          img {
+            height: 50vh;
+          }
+        }
+      }
+    }
+  }
+  // End of Header Home Page 
+
+  
+  // Srart Footer 
+  footer {
+    .foot-about {
+      p {
+        margin-bottom: 50px;
+      }
+    }
+  }
+  // End Footer 
+
+}
+
+
+@media (max-width: 575.98px) {
+
+  // Section Title 
+  .title-section {
+    h2 {
+      &:before, &:after {
+        display: none;
+      }
+    }
+  }
+  // Section Title 
+
+  // Start of Header Home Page 
+  header {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          img {
+            height: 50vh;
+          }
+        }
+      }
+    }
+  }
+  // End of Header Home Page 
+
+}
+
+
+

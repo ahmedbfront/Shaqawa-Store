@@ -1,0 +1,62 @@
+// Srart Footer 
+footer {
+  background-color: #ececeb;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  
+  h4 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: -14px;
+      width: 40px;
+      height: 3px;
+      background-color: $primaryHover;
+    }
+  }
+  .foot-about {
+    p {
+      font-size: 20px;
+      color: #000000bf;
+      font-weight: 500 !important;
+    }
+  }
+  .foot-contact {
+    .phone {
+      margin-bottom: 20px;
+      li {
+        color: #000000bf;
+        margin-bottom: 10px;
+        &:after {
+          content: "\f095";
+          font: normal normal normal 20px/0 FontAwesome;
+          margin-right: 10px;
+        }
+      }
+    }
+    .social-media {
+      li {
+        margin-left: 20px;
+        a {
+          width: 40px;
+          height: 40px;
+          color: $primaryHover;
+          border: 2px solid $primaryHover;
+          border-radius: 50%;
+          text-align: center;
+          display: block;
+          transition: all .4s;
+          &:hover {
+            background-color: $primaryHover;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+// End Footer 

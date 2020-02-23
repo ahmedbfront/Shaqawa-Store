@@ -1,0 +1,24 @@
+// Start Section About 
+.about {
+  .about-me {
+    h2 {
+      margin-top: 60px;
+    }
+    p {
+      width: 70%;
+      line-height: 2;
+      font-size: 18px;
+      color: #000000c9;
+      margin-bottom: 30px;
+      span {
+        display: block;
+        font-size: 22px;
+        color: #2d96ff;
+        &:last-of-type {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+// End Section About 

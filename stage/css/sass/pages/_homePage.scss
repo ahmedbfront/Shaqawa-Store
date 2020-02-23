@@ -1,0 +1,28 @@
+// Start of Header Home Page 
+header {
+  overflow: hidden;
+  .carousel {
+    .carousel-indicators {
+      bottom: 15px;
+    }
+    // Start Item 
+    .carousel-inner {
+      .carousel-item {
+        img {
+          height: 100vh;
+        }
+      }
+    }
+    // End Item 
+    a {
+      top: 45%;
+      &:first-of-type {
+        right: 8%;
+      }
+      &:last-of-type {
+        left: 8%;
+      }
+    }
+  }
+}
+// End of Header Home Page 

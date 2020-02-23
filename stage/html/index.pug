@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(dir="rtl" lang="ar")
+  head
+    include pug/layout/meta
+    include pug/layout/styles
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    script(src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js")
+    script(src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js")
+    <![endif]-->
+  body
+
+    // Script Facebook Page Comment 
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ar_AR/sdk.js#xfbml=1&version=v6.0">
+    </script>
+
+    // Navbar 
+    include pug/layout/navbar
+
+    // Home Page 
+    div(id='show-home-page')
+      include pug/homesite
+    
+    // Footer 
+    include pug/layout/footer
+    
+    // Start Login Page 
+    .loading-page
+      .dots-container
+        .dots
+        .dots
+        .dots
+        .dots
+        .dots
+    // End Login Page 
+
+    
+    // Sctipt 
+    include pug/layout/scripts
+
+    

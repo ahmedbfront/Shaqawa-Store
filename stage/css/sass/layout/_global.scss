@@ -1,0 +1,240 @@
+@import url('//fonts.googleapis.com/earlyaccess/notokufiarabic.css'); 
+
+* {
+  font-family: 'Noto Kufi Arabic'; 
+  font-weight: 900 !important;
+}
+
+i {
+  font: normal normal normal 20px/2 FontAwesome !important;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+// padding top and bottom 
+.p-top-botm {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+// padding top and bottom 
+
+// Section Title 
+.title-section {
+  h2 {
+    position: relative;
+    margin: 80px auto;
+    text-align: center;
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 14px;
+      width: 22px;
+      height: 3px;
+      background-color: $primaryHover;
+      margin-right: -28px;
+      transform: rotate(-30deg);
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 14px;
+      width: 22px;
+      height: 3px;
+      background-color: $primaryHover;
+      margin-right: 8px;
+      transform: rotate(30deg);
+    }
+    span {
+      color: $primaryHover;
+    }
+  }
+}
+// Section Title 
+
+// Coordination of offers section and shipping requests section 
+.card {
+  margin-bottom: 40px;
+  border: 0;
+  border-radius: 22px;
+  box-shadow: 0px 9px 10px -2px #0000006e;
+  &:hover {
+    .card-img-top {
+      transform: scale(.9);
+    }
+  }
+  .card-img-top {
+    height: 190px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition: all .4s;
+  }
+  .card-body {
+    padding: 10px;
+    h6 {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    h4 {
+      color: $primaryHover;
+      font-size: 24px;
+      margin: 10px 0 20px;
+      font-weight: 700;
+    }
+  }
+}
+// Coordination of offers section and shipping requests section 
+
+
+// Part formatting Request your proposal now 
+.credit-body {
+  .modal{
+    top: 60px;
+    .modal-dialog {
+      .modal-content {
+        border: 0;
+        box-shadow: 0px 4px 16px black;
+        border-radius: 20px;
+        .modal-header {
+          border: 0;
+          .title {
+            background: $primaryHover;
+            color: #fff;
+            font-size: 22px;
+            padding: 6px 20px;
+            border-radius: 16px;
+            margin: 29px auto 0;
+          }
+          .close {
+            position: absolute;
+            right: 6px;
+            font-size: 2rem;
+          }
+        }
+        .modal-body {
+          padding: 40px 0 80px;
+          h6 {
+            font-size: 1.2rem;
+            margin-top: 16px;
+          }
+          ul {
+            li {
+              font-size: 20px;
+              padding: 8px;
+              span {
+                color: $primaryHover;
+              }
+            }
+            
+          }
+          a {
+            font-size: 22px;
+          }
+          .conversion  {
+            li {
+              color: $primaryHover;
+              padding: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// Part formatting Request your proposal now 
+
+
+// Slider format Facebook and header page 
+.carousel {
+  .carousel-indicators {
+    li {
+      background-color: $primaryHover;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+    }
+  }
+  a {
+    background: $primaryHover;
+    width: 55px;
+    height: 55px;
+    display: table-column-group;
+    border-radius: 50%;
+    line-height: 55px;
+    display: flex;
+    span {
+      &:first-of-type {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+// Slider format Facebook and header page 
+
+
+// Start Login Page 
+body {
+  overflow: hidden;
+}
+
+.loading-page {
+  background: $primaryHover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999999999;
+  .dots-container{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    .dots{
+      background: #FFF;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+      animation: bounce 1.5s infinite linear;
+      &:nth-child(1){
+        animation-delay: .2s;
+      }
+      &:nth-child(2){
+        animation-delay: .4s;
+      }
+      &:nth-child(3){
+        animation-delay: .6s;
+      }
+      &:nth-child(4){
+        animation-delay: .8s;
+      }
+      &:nth-child(5){
+        animation-delay: 1s;
+      }
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  15% {
+      transform: translateY(-15px);
+  }
+  30% {
+      transform: translateY(0);
+  }
+}
+// End Login Page 
+

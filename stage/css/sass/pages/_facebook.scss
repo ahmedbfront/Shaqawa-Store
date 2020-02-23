@@ -1,0 +1,49 @@
+// Start Facebook Section 
+.facebook {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  h2 {
+    display: none;
+  }
+  // Start Post 
+  .post {
+    margin-bottom: 30px;
+    a {
+      img {
+        border: 1px solid #00000085;
+      }
+    }
+  }
+  // Start slider comments 
+  .comments {
+    .carousel {
+      .carousel-indicators {
+        bottom: -70px;
+      }
+      // Start Item 
+      .comment {
+        iframe {
+          width: 600px;
+          height: 147px;
+          border: none;
+          overflow: hidden;
+        }
+      }
+      a {
+        top: 40%;
+      }
+    }
+  }
+  // Start Comment 
+  .fb-comment {
+    margin-top: 120px;
+    .fb-comments {
+      span {
+        iframe {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+// End Facebook Section 

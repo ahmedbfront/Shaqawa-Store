@@ -1,0 +1,30 @@
+// Start Section Shipping 
+.shipping {
+  .title-shipping {
+    h2 {
+      position: relative;
+      margin: 70px 0 50px;
+      &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: -14px;
+        width: 10%;
+        height: 3px;
+        background-color: $primaryHover;
+      }
+    }
+  }
+  ul {
+    margin-top: 10px;
+    li {
+      margin: 12px 0;
+      .face {
+        color: #3b5998;
+      }
+      .whats {
+        color: #00BFA5;
+      }
+    }
+  }
+}

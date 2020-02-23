@@ -1,0 +1,69 @@
+// Start Section Facebook 
+section(class='facebook')
+  .container
+    h2 Post in Facebook 
+
+    .row
+      // Start Post 
+      .col-12.text-center
+        .post
+          a(href='https://www.facebook.com/Hassan.Soliman.372/posts/735963500210253' target='_blank')
+            img(class='img-fluid' src='img/facebook.png' alt='Image')
+      // Start slider comments 
+      .comments.col-12.text-center
+        .carousel.slide#carouselface(data-ride='carousel')
+          ol.carousel-indicators
+            li.active(data-target='#carouselface' data-slide-to='0')
+            li(data-target='#carouselface' data-slide-to='1')
+            li(data-target='#carouselface' data-slide-to='2')
+            li(data-target='#carouselface' data-slide-to='3')
+            li(data-target='#carouselface' data-slide-to='4')
+            li(data-target='#carouselface' data-slide-to='5')
+            li(data-target='#carouselface' data-slide-to='6')
+          .carousel-inner
+            // Start Item 
+            .carousel-item.active
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D736129003527036&width=auto&include_parent=false&height=134&appId')
+
+            // Start Item 
+            .carousel-item
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D735999100206693&width=auto&include_parent=false&height=154&appId')
+
+            // Start Item 
+            .carousel-item
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D788569921616277&width=auto&include_parent=false&height=147&appId')
+
+            // Start Item 
+            .carousel-item
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D735987840207819&width=auto&include_parent=false&height=147&appId')
+
+            // Start Item 
+            .carousel-item
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D735987840207819&width=auto&include_parent=false&height=147&appId')
+            
+            // Start Item 
+            .carousel-item
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D736043636868906&width=auto&include_parent=false&height=114&appId')
+
+            // Start Item 
+            .carousel-item
+              .comment
+                iframe(src='https://www.facebook.com/plugins/comment_embed.php?href=https%3A%2F%2Fwww.facebook.com%2FHassan.Soliman.372%2Fposts%2F735963500210253%3Fcomment_id%3D735994246873845&width=auto&include_parent=false&height=148&appId')
+                
+          a.carousel-control-prev(href='#carouselface' role='button' data-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.sr-only Previous
+          a.carousel-control-next(href='#carouselface' role='button' data-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.sr-only Next
+
+    // Start Comment 
+    .fb-comment
+      .fb-comments(data-href='https://ahmedbfront.github.io/Game-Pubg/dist' data-mobile data-numposts='10' data-order-by='reverse_time')
+// End Section Facebook 

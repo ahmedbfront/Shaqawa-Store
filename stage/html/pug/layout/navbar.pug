@@ -1,0 +1,29 @@
+
+// Start Navbar 
+nav.navbar.navbar-expand-lg.navbar-light.justify-content-center
+  .container
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      i.fa.fa-align-right
+    .collapse.navbar-collapse.justify-content-center#navbarSupportedContent
+      ul.navbar-nav
+        li.nav-item.active
+          a.nav-link.link-page.collapse-toggle(data-page='pug/homesite.html') الرئيسية
+        li.nav-item.dropdown
+          a.nav-link.nav-icon#navbarDrop(data-toggle="dropdown" href='#') شحن الالعاب
+          .dropdown-menu(aria-labelledby='navbarDrop')
+            a.dropdown-item.link-page.collapse-toggle(data-page='pug/components/pages/pubg.html') Pubg
+            a.dropdown-item.link-page.collapse-toggle(data-page='pug/components/pages/freefire.html') Free Fire
+            a.dropdown-item.link-page.collapse-toggle(data-page='pug/components/pages/callduty.html') Call of Duty
+
+        li.nav-item.dropdown
+          a.nav-link.nav-icon#navbarDropdown(data-toggle="dropdown" href='#') شحن الميديا
+          .dropdown-menu(aria-labelledby='navbarDropdown')
+            a.dropdown-item.link-page.collapse-toggle(data-page='pug/components/pages/itunes.html') Itunes
+            a.dropdown-item.link-page.collapse-toggle(data-page='pug/components/pages/steam.html') Steam
+            a.dropdown-item.link-page.collapse-toggle(data-page='pug/components/pages/googleplay.html') Google Play
+
+        li.nav-item
+          a.nav-link.link-page.collapse-toggle(data-page='pug/components/pages/shipping.html') طريقه الشحن
+        li.nav-item
+          a.nav-link.link-page.collapse-toggle(data-page='pug/components/pages/about.html') من نحن
+// End Navbar 

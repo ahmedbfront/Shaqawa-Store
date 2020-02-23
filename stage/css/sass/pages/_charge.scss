@@ -1,0 +1,27 @@
+// Start Charge Section in Home Page 
+.charge {
+  background-color: #ececeb;
+  background-image: url(../img/freefire.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 99999;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000099;
+    z-index: -1;
+  }
+  .title-section {
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      margin-top: 0;
+    }
+  }
+}
+// End Charge Section in Home Page 
